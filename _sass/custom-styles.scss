@@ -1,0 +1,30 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+div .halfgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div .homegrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+}
+
+div .centered {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+figure {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+figcaption {
+    margin: 5px 30px;
+}

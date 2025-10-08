@@ -1,0 +1,8 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# For manipulating WSL from Windows host.
+*Zone.Identifier
