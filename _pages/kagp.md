@@ -11,7 +11,7 @@ KAGP is an ascent guidance program written in Python, based on [this paper](http
 
 Links:
 - [GitHub page](https://github.com/origamisaturn/KAGP)
-- [Online documentation](https://kagp.github.io)
+- [Online documentation](https://origamisaturn.github.io/KAGP)
 
 This is a project I started in September 2023. I have worked on and off on it since then, but a majority of the work was done from the months of May to August in 2024. 
 
