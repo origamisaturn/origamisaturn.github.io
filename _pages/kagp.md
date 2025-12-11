@@ -29,7 +29,7 @@ Initially, I intended to keep the program barebones and bring it to a point wher
     </figcaption>
 </figure>
 
-The user interacts with KAGP through its command line interface, installed using pip. To run the ascent guidance, the user provides a configuration file (TODO: ADD LINK) that contains spacecraft info, the intended orbit, and other parameters. An example invocation of KAGP is
+The user interacts with KAGP through its command line interface, installed using pip. To run the ascent guidance, the user provides a [configuration file](https://origamisaturn.github.io/KAGP/inputs/) that contains spacecraft info, the intended orbit, and other parameters. An example invocation of KAGP is
 
 ```
 kagp run example_config.yaml

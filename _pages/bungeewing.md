@@ -145,7 +145,7 @@ The wing section has an area for attachment to an adjoining section at the root.
     </figcaption>
 </figure>
 
-Using reference planes, I create cross-section sketches of the attachment area, and I loft them together. One of the lofts between two sketches has many parts due to a difference in the number of sides each sketch has. There are many small lofts going from a point to an edge, forming triangular surfaces.
+Using reference planes, I create cross-section sketches of the attachment area and I loft them together. Normally I can create a loft between two sketches using only a single feature, but a pair of the sketches here have differing numbers of sides, so for that pair I had to use many small loft features to get the desired result.
 
 <figure>
     <div class="halfgrid">
@@ -172,6 +172,6 @@ Although it is not part of the original STL mesh, I add an attachment area in th
 
 This completes the CAD model of the wing. I can hide and/or delete bodies before exporting it as an STL for 3D printing. This lets me experiment with changing the height of the wing during print.
 
-Compared to the original STL, my model exported to STL has a quite irregular mesh. In practice I haven't faced any difficulties as a result of this — Cura slices it in spiralize mode perfectly fine — but other methods of modeling the wing could generate a more regular mesh. I could have modeled the wing section as a solid instead, and extracted the surface from the solid right before converting it to an STL. Or perhaps, instead of parametric modeling, I could have created the mesh myself using a tool like Blender.
+Compared to the original STL, my STL model has quite an irregular mesh. In practice I haven't faced any difficulties as a result of this — Cura slices it in spiralize mode perfectly fine — but other methods of modeling the wing could generate a more regular mesh. I could have modeled the wing section as a solid instead, and extracted the surface from the solid right before converting it to an STL. Or perhaps, instead of parametric modeling, I could have created the mesh myself using a tool like Blender.
 
 Otherwise, the CAD model is serviceable and good enough for 3D printing.
